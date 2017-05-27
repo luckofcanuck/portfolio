@@ -1,28 +1,9 @@
-# DawsonPortfolio
+###My Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.2.
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 
-## Development server
+This is not just a collection of my best work, but an exhibition of it as well. This app was built in AngularJS originally, as it was the framework I learned for full-stack development in my dev boot camp. However, in the final week of my program, I took it upon myself (alongside two classmates) to learn Angular 4 so we could be confident in component based development before moving on from our schooling. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Two weeks after writing my first line of an app in Angular 4, this site was deployed. This portfolio describes me, what I do, what projects I have most recently (and/or most proudly) completed, how to get in touch of me, and all of that while being, in itself, a statement as to how quickly I can jump into a new technology and confidently build with it. 
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This application is fully responsive, has nesting components, and uses Bootstrap and Font Awesome.
