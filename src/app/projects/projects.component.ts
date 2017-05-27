@@ -32,7 +32,6 @@ export class ProjectsComponent implements OnInit {
           url: "/kandj"
       }
   ]
-
    constructor() { }
 
   ngOnInit() {
