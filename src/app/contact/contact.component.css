@@ -1,0 +1,95 @@
+.contactWrapper {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+.contactWrapper div {
+    margin: 24px;
+}
+
+.contactNumber {
+    color: darkgrey;
+}
+
+.contactEmail {
+    color: darkorange;
+}
+
+.contactEmail:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.git {
+    color: darkgrey;
+}
+
+.git:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.linked {
+    color: darkgrey;
+}
+
+.linked:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.homeHeader {
+	position: relative;
+	left: 24px;
+    top: 24px;
+}
+
+.homeHeader:hover .homeName {
+	color: lightgrey;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.homeHeader:hover .homeSubtitle {
+	color: lightgrey;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.homeName {
+	font-size: 20px;
+	color: grey;
+	width: 140px;
+	text-align: center;
+	font-family: "Work Sans", sans-serif;
+}
+
+.homeSubtitle {
+	font-size: 16px;
+	color: grey;
+	width: 140px;
+	text-align: center;
+	font-family: "Work Sans", sans-serif;
+}
+
+.homeSubtitle::before {
+	content: '';
+	border-top: 1px solid lightgrey;
+	width: 140px;
+	position: absolute;
+	top: 26px;
+	left: 0px;
+	animation: widen 0.5s ease;
+}
+
+@keyframes widen {
+	from {width: 0px;}
+	to {width: 140px;}
+}
