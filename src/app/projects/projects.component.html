@@ -5,7 +5,7 @@
         	</div>
         	<div class="projectBody">
         		<div class="projectImg" *ngIf="!project[i]">
-        			<a href="{{project.url}}"><img [src]="project.img" /></a>
+        			<a href="{{project.url}}" target="_blank"><img [src]="project.img" /></a>
         		</div>
             	<div class="projectSubtitle" *ngIf="!project[i]">
             		{{project.subtitle}} <span class="showDes" (click)="project[i] = !project[i]">[More]</span>
@@ -18,7 +18,7 @@
                     </div>
                     <span class="desText">{{project.description}}</span>
                     <br />
-                    <a class="desShowProject" href="{{project.url}}">[See the project]</a>
+                    <a class="desShowProject" href="{{project.url}}" target="_blank">[See the project]</a>
         		</div>
         	</div>
     </div>
