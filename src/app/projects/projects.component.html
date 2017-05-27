@@ -1,0 +1,25 @@
+<div class="projectComponentWrapper">
+    <div class="projectRepeated" *ngFor="let project of projects; let i = index" class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-0">
+        	<div class="projectTitle" *ngIf="!project[i]">
+        		{{project.title}}
+        	</div>
+        	<div class="projectBody">
+        		<div class="projectImg" *ngIf="!project[i]">
+        			<a href="{{project.url}}" target="_blank"><img [src]="project.img" /></a>
+        		</div>
+            	<div class="projectSubtitle" *ngIf="!project[i]">
+            		{{project.subtitle}} <span class="showDes" (click)="project[i] = !project[i]">[More]</span>
+            	</div>
+        		<div class="projectDescription" *ngIf="project[i]">
+                    <div id="nav-icon" (click)="project[i] = false">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                    </div>
+                    <span class="desText">{{project.description}}</span>
+                    <br />
+                    <a class="desShowProject" href="{{project.url}}" target="_blank">[See the project]</a>
+        		</div>
+        	</div>
+    </div>
+</div>

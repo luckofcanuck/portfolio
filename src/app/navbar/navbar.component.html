@@ -1,0 +1,29 @@
+<div id="nav-icon" (click)="showing = !showing" [ngClass]="showing ? 'x': 'normal'">
+    <span id="span1"></span>
+    <span id="span2"></span>
+    <span id="span3"></span>
+</div>
+
+<div [ngClass]="showing ? 'navShowing': 'navHiding'">
+		<h1>Explore: </h1>
+		<div class="container">
+			<div class="row boxesWrapper">
+				<div class="col-xs-12 col-md-4 navboxWrap">
+					<div class="navbox" (click)="showing = !showing" routerLink="/home">
+						Home / Projects
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4 navboxWrap">
+					<div class="navbox" (click)="showing = !showing" routerLink="/about">
+						About
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4 navboxWrap">
+					<div class="navbox" (click)="showing = !showing" routerLink="/contact">
+						Contact
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <footer-directive ng-class="showing ? 'footerDirect': 'footerHiding'"></footer-directive> -->
+	</div>
